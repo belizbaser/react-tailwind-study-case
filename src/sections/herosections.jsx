@@ -40,7 +40,7 @@ function HeroSection() {
 
       </header>
 
-      <div className="w-full h-[859px]  bg-[#fff8f7] opacity-[10] flex justify-between  " >
+      <div className="w-full h-[729px]  bg-[#fff8f7] opacity-[10] flex justify-between  " >
         <div>
          <div className=" w-[563px] pt-[px] ml-[135px]">
             <h1 className="text-[56px] font-[600] leading-none pt-[96px]">
