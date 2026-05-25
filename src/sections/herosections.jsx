@@ -2,8 +2,9 @@ import heroPhone from "../assets/hero-phone.svg"
 function HeroSection() {
   return (
     <section >
+      
      <header className=" w-full h-[128px] px-[128px]  items-center flex ">
-        
+        <div className="w-[1200px] h-[48px] mb-[40px] mt-[40px] ml-[120px] mr-[120px] flex items-center justify-between">
         <div>
            <h1 className="text-[32px] font-[700] leading-none ">
             <span className="text-[#776bb3]"  >Bu</span>
@@ -38,12 +39,14 @@ function HeroSection() {
         </button>
         </div>
 
+        </div>
       </header>
-
+      
+      
       <div className="w-full h-[729px]  bg-[#fff8f7] opacity-[10] flex justify-between  " >
         <div>
-         <div className=" w-[563px] pt-[px] ml-[135px]">
-            <h1 className="text-[56px] font-[600] leading-none pt-[96px]">
+         <div className=" w-[563px] pt-[96px] ml-[135px]">
+            <h1 className="text-[56px] font-[600] leading-none ">
                 <span className="text-[#262626]">Find </span>
                 <span className="text-[#ff725e]">Match Now </span>
                 <span className="text-[#262626]">and Grow Your Feelings</span>
@@ -76,8 +79,8 @@ function HeroSection() {
          </div>
             </div>
 
-        <div className="w-[556.02px] h-[599.3px] pt-[57.27px] mr-[110px] mt-[40px] flex items-center justify ">
-            <img src={heroPhone} alt="Hero Phone" />
+        <div className="w-[556.02px] h-[599.3px] pt-[57.27px] mr-[85px]  flex items-center justify ">
+            <img src={heroPhone} alt="Hero Phone" className="w-[556px]" />
         </div>
 
         
