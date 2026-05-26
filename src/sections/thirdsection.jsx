@@ -5,14 +5,12 @@ import userIcon from "../assets/useradd.svg";
 
 function ThirdSection() {
 return (
-  <section className="w-full h-[670px] bg-white flex items-center relative overflow-hidden border-t border-b border-[#d9d9d9]">
+  <section className="relative w-full overflow-x-hidden border-t border-b border-[#d9d9d9] bg-white md:flex md:h-[670px] md:items-center">
 
-    <div className="ml-[140px] mt-[103px] w-[457px] mb-[98px]" >
+    <div className="hidden md:block ml-[120px] mt-[103px] w-[457px] mb-[98px]" >
 
-      <h2 className="text-[40px] font-[600] text-[#262626] leading-[56px]">
-        How It Works To Find
-        <br />
-        Your Relationship
+      <h2 className="text-[40px] font-[600] text-[#262626] ">
+        How It Works To Find<br/>Your Relationship
       </h2>
 
       <div className="mt-[48px] flex flex-col gap-[32px]">
@@ -60,6 +58,49 @@ return (
 
       </div>
 
+    </div>
+
+    <div className="md:hidden">
+      <div className="mx-auto flex min-h-[670px] max-w-[375px] flex-col justify-end overflow-hidden px-[24px] pb-[28px] pt-[120px]">
+        <h2 className="max-w-[327px] text-[24px] font-[600] leading-[140%] text-[#262626]">
+          How It Works To Find Your <br/> Relationship
+        </h2>
+
+        <div className="mt-[24px] max-w-[327px] space-y-[24px]">
+          <div className="flex items-start gap-[16px]">
+            <div className="flex h-[48px] w-[48px] shrink-0 items-center justify-center rounded-full bg-[#FF834F]/30">
+              <img src={searchIcon} alt="search" className="h-[20px] w-[20px]" />
+            </div>
+
+            <p className="text-[16px] font-[400] leading-[24px] text-[#727272]">
+              Find your dating relationship in app and waiting until you get a
+              notification
+            </p>
+          </div>
+
+          <div className="flex items-start gap-[16px]">
+            <div className="flex h-[48px] w-[48px] shrink-0 items-center justify-center rounded-full bg-[#FF834F]/30">
+              <img src={heartIcon} alt="like" className="h-[20px] w-[20px]" />
+            </div>
+
+            <p className="text-[16px] font-[400] leading-[24px] text-[#727272]">
+              Dating with benefits and you redefine the expectations of a
+              perfect relationship
+            </p>
+          </div>
+
+          <div className="flex items-start gap-[16px]">
+            <div className="flex h-[48px] w-[48px] shrink-0 items-center justify-center rounded-full bg-[#FF834F]/30">
+              <img src={userIcon} alt="user" className="h-[20px] w-[20px]" />
+            </div>
+
+            <p className="text-[16px] font-[400] leading-[24px] text-[#727272]">
+              Ideal relationship makes your online dating relationship run more
+              smoothly using this app
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
 
   </section>
